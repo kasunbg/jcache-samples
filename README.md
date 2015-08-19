@@ -1,9 +1,11 @@
 # jcache-samples
-This contains the samples used for the Java Colombo Meetup on Distributed Caching with Java. 
+This contains the samples used for the Java Colombo Meetup on Distributed Caching with Java. [1]
 This demonstrates the use of Javax JCache with Hazelcast as the caching server. Hazelcast is running
 in client-server mode where the Hazelcast cluster instances are running separately from the Application.
 It is also possible to run Hazelcast in embedded mode where the application and the Hazelcast instance 
 reside within the same JVM.
+
+[1] http://www.meetup.com/java-colombo/events/223811796/
 
 This has three maven modules. Each module can be run by executing the following command.
 
